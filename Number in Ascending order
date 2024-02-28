@@ -1,0 +1,10 @@
+#get a list to sort in ascending order
+
+list = [12,32,21,3,2,6,31]
+print("Actual list: ",list)
+
+#make the list ascending by using sort()
+
+list.sort()
+print("After sorting: ",list)
+
