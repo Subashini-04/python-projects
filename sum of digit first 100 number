@@ -1,0 +1,6 @@
+N = int(input())
+first_value= 1
+last_value=N
+sum = N/2*(first_value + last_value)
+print(sum)
+
