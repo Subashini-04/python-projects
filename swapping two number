@@ -1,0 +1,15 @@
+A = int(input("Enter a number: "))
+B = int(input("Enter a number: "))
+
+#swapping the values with variables
+
+temp = A
+A = B
+B = temp
+
+#print the swapped value
+
+print("The swapped values are:")
+print("A=",A)
+print("B=",B)
+
