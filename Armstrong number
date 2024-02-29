@@ -1,0 +1,12 @@
+n=int(input())
+temp=n
+ans=0
+while n>0:
+    rem=n%10
+    ans=(rem**3)+ans
+    n=n//10
+if(temp==ans):
+    print("Armstrong")
+else:
+    print("Not Armstrong")
+
